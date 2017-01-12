@@ -1,0 +1,37 @@
+# Site settings
+email:
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: TEDxBahcesehirUniversity-BLOG
+description:
+url: "https://blog.tedxbahcesehir.com"
+twitter_username: @tedx_bahcesehir
+default_img:
+
+# Profile settings
+name: TEDxBahcesehirUniversity-BLOG
+profile_img: "https://pbs.twimg.com/profile_images/682947214251929602/dUIDAF0h.jpg"
+profile:
+social:
+github:
+
+# Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+
+# RRSSB
+facebook: true
+twitter: true
